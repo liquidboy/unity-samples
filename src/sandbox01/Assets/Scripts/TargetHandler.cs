@@ -18,7 +18,8 @@ namespace DapperDino.BuildingBlocks
 
         private void Start()
         {
-            playerHealth = GameObject.FindGameObjectWithTag("Player").GetComponentInChildren<HealthBehaviour>();
+            playerHealth = GameObject.FindGameObjectWithTag("Player")?.GetComponentInChildren<HealthBehaviour>();
+            if (playerHealth == null) return;
             targets = GetComponentsInChildren<HealthBehaviour>().ToList();
 
             playerHealth.OnDeath += HandlePlayerDeath;
