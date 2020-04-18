@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3777121461011869070}
   - component: {fileID: 7157045433405181833}
   - component: {fileID: 1920710067716957772}
+  - component: {fileID: 5619698040640962755}
   m_Layer: 0
   m_Name: TurretBarrel
   m_TagString: Untagged
@@ -101,6 +102,21 @@ MonoBehaviour:
     type: 3}
   spawnPoint: {fileID: 3447391088790918653}
   initialVelocity: {x: 0, y: 0, z: 20}
+--- !u!114 &5619698040640962755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1104686921343759140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a06326853edf2dd49b1289abb58d5c7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+  xAxis: 1
+  yAxis: 0
 --- !u!1 &2621062554708585415
 GameObject:
   m_ObjectHideFlags: 0
@@ -146,6 +162,7 @@ GameObject:
   - component: {fileID: 3278844441372330355}
   - component: {fileID: 2920278385777199682}
   - component: {fileID: 1329531763765390655}
+  - component: {fileID: 3827328635913896879}
   m_Layer: 0
   m_Name: TurretBase
   m_TagString: Untagged
@@ -274,7 +291,31 @@ MonoBehaviour:
       m_Calls: []
   m_ActionEvents:
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5619698040640962755}
+        m_TargetAssemblyTypeName: DapperDino.BuildingBlocks.RotateObject, Assembly-CSharp
+        m_MethodName: Rotate
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 3827328635913896879}
+        m_TargetAssemblyTypeName: DapperDino.BuildingBlocks.RotateObject, Assembly-CSharp
+        m_MethodName: Rotate
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: c9768803-5c38-4d1a-ab35-8ebe811f3d3c
     m_ActionName: Player/Aim[/Mouse/delta]
   - m_PersistentCalls:
@@ -302,6 +343,21 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &3827328635913896879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3278448732832894995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a06326853edf2dd49b1289abb58d5c7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+  xAxis: 0
+  yAxis: 1
 --- !u!1 &5752066475020003627
 GameObject:
   m_ObjectHideFlags: 0
