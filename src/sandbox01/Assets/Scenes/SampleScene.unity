@@ -405,7 +405,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementSpeed: 5
-  limits: {x: -4, y: 4}
+  limits: {x: -100, y: 100}
   XNegative: 15
   XPositive: 18
   YNegative: 33

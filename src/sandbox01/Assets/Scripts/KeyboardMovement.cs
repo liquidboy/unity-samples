@@ -5,7 +5,7 @@ using static UnityEngine.InputSystem.InputAction;
 
 namespace DapperDino.BuildingBlocks
 {
-    public class TurretMovement : MonoBehaviour
+    public class KeyboardMovement : MonoBehaviour
     {
         [SerializeField] private float movementSpeed = 5f;
         [SerializeField] private Vector2 limits = new Vector2(-4f, 4f);
