@@ -1,0 +1,8 @@
+[submodule "Packages/com.unity.uiwidgets"]
+	path = Packages/com.unity.uiwidgets
+	url = git@github.com:liquidboy/UIWidgets.git
+	branch = master
+[submodule "src/sandbox01/Packages/com.unity.uiwidgets"]
+	path = src/sandbox01/Packages/com.unity.uiwidgets
+	url = git@github.com:liquidboy/UIWidgets.git
+	branch = master
