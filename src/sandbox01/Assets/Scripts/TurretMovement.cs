@@ -28,6 +28,10 @@ namespace DapperDino.BuildingBlocks
                     case Key.S:
                         isY = true;
                         break;
+                    case Key.R:
+                    case Key.Q:
+                        isZ = true;
+                        break;
                     default: isX = true; break;
                 }
             }
@@ -52,6 +56,11 @@ namespace DapperDino.BuildingBlocks
             if (isY) {
                 float newYValue = Mathf.Clamp(transform.position.y + movement, limits.x, limits.y);
                 transform.position = new Vector3(transform.position.x, newYValue, transform.position.z);
+            }
+            else if (isZ)
+            {
+                float newZValue = Mathf.Clamp(transform.position.z + movement, limits.x, limits.y);
+                transform.position = new Vector3(transform.position.x, transform.position.y, newZValue);
             }
             else { //isX
                 float newXValue = Mathf.Clamp(transform.position.x + movement, limits.x, limits.y);

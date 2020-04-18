@@ -69,7 +69,7 @@ namespace DapperDino.BuildingBlocks.Inputs
                     ""isPartOfComposite"": false
                 },
                 {
-                    ""name"": ""1D Axis"",
+                    ""name"": ""1D X Axis"",
                     ""id"": ""d48fd123-bb7f-4675-a04d-a59bffd40c2e"",
                     ""path"": ""1DAxis"",
                     ""interactions"": """",
@@ -102,7 +102,7 @@ namespace DapperDino.BuildingBlocks.Inputs
                     ""isPartOfComposite"": true
                 },
                 {
-                    ""name"": ""1D Axis"",
+                    ""name"": ""1D Y Axis"",
                     ""id"": ""e46bab24-8117-477f-9690-a9b74b5c8420"",
                     ""path"": ""1DAxis"",
                     ""interactions"": """",
@@ -127,6 +127,39 @@ namespace DapperDino.BuildingBlocks.Inputs
                     ""name"": ""positive"",
                     ""id"": ""89c0b3e1-6dd7-42cb-82de-2168b65230be"",
                     ""path"": ""<Keyboard>/w"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard & Mouse"",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""1D Z Axis"",
+                    ""id"": ""28e44b5b-e244-4247-91e7-fe34cc7516cc"",
+                    ""path"": ""1DAxis"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""positive"",
+                    ""id"": ""bfa9bc77-86db-4168-84f3-ee42208c84b2"",
+                    ""path"": ""<Keyboard>/q"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard & Mouse"",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""negative"",
+                    ""id"": ""6ceb913e-338c-48e5-97cf-aef14b61530a"",
+                    ""path"": ""<Keyboard>/r"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Keyboard & Mouse"",
