@@ -10,6 +10,15 @@ namespace DapperDino.BuildingBlocks
         [SerializeField] private float movementSpeed = 5f;
         [SerializeField] private Vector2 limits = new Vector2(-4f, 4f);
 
+        [SerializeField] private Key XNegative = Key.A;
+        [SerializeField] private Key XPositive = Key.D;
+
+        [SerializeField] private Key YNegative = Key.S;
+        [SerializeField] private Key YPositive = Key.W;
+
+        [SerializeField] private Key ZNegative = Key.R;
+        [SerializeField] private Key ZPositive = Key.Q;
+
         private float previousInput;
 
         private bool isX;
@@ -23,17 +32,9 @@ namespace DapperDino.BuildingBlocks
             if (ctx.control is KeyControl) {
                 var key = (KeyControl)ctx.control;
                 isX = isY = isZ = false;
-                switch (key.keyCode) {
-                    case Key.W:
-                    case Key.S:
-                        isY = true;
-                        break;
-                    case Key.R:
-                    case Key.Q:
-                        isZ = true;
-                        break;
-                    default: isX = true; break;
-                }
+                if (key.keyCode == YNegative || key.keyCode == YPositive) isY = true;
+                else if (key.keyCode == ZNegative || key.keyCode == ZPositive) isZ = true;
+                else isX = true;
             }
             
             if (ctx.performed)
