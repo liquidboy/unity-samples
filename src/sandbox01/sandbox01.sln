@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{795AA826-5D67-175C-7179-642D1E4959AF}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.UIWidgets", "Unity.UIWidgets.csproj", "{D102D261-5035-77C5-E76C-DF9A6168DA31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{795AA826-5D67-175C-7179-642D1E4959AF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.InternalAPIEngineBridge.024", "Unity.InternalAPIEngineBridge.024.csproj", "{DFE5E31C-8DD2-B771-5D65-F825FD7F83CA}"
 EndProject
@@ -15,14 +15,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{795AA826-5D67-175C-7179-642D1E4959AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{795AA826-5D67-175C-7179-642D1E4959AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{795AA826-5D67-175C-7179-642D1E4959AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{795AA826-5D67-175C-7179-642D1E4959AF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D102D261-5035-77C5-E76C-DF9A6168DA31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D102D261-5035-77C5-E76C-DF9A6168DA31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D102D261-5035-77C5-E76C-DF9A6168DA31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D102D261-5035-77C5-E76C-DF9A6168DA31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{795AA826-5D67-175C-7179-642D1E4959AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{795AA826-5D67-175C-7179-642D1E4959AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{795AA826-5D67-175C-7179-642D1E4959AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{795AA826-5D67-175C-7179-642D1E4959AF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DFE5E31C-8DD2-B771-5D65-F825FD7F83CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DFE5E31C-8DD2-B771-5D65-F825FD7F83CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFE5E31C-8DD2-B771-5D65-F825FD7F83CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
