@@ -27,7 +27,7 @@ namespace Samples.UIWidgets.Sample5
             //    FontStyle.italic);
 
             // add material icons, familyName must be "Material Icons"
-            // FontManager.instance.addFont(Resources.Load<Font>(path: "path to material icons"), "Material Icons");
+            FontManager.instance.addFont(Resources.Load<Font>(path: "fonts/MaterialIcons-Regular"), "Material Icons");
 
             base.OnEnable();
         }
@@ -74,7 +74,7 @@ namespace Samples.UIWidgets.Sample5
                                     crossAxisAlignment: CrossAxisAlignment.center,
                                     mainAxisAlignment: MainAxisAlignment.center,
                                     children: new List<Widget>() {
-                                        new Icon(Unity.UIWidgets.material.Icons.directions_car, size:128.0f, color: Colors.black),
+                                        new Icon(Icons.directions_car, size:128.0f, color: Colors.black),
                                         new RaisedButton(child: new Text("Next Mode"))
                                     }
                                 )
@@ -83,8 +83,8 @@ namespace Samples.UIWidgets.Sample5
                         floatingActionButton: new FloatingActionButton(
                             backgroundColor: Colors.redAccent,
                             child: new Icon( 
-                                icon: Unity.UIWidgets.material.Icons.add_alert, 
-                                size:64.0f,
+                                icon: Icons.add_alert, 
+                                size:32.0f,
                                 color: Colors.white
                             ),
                             onPressed: () => { }
