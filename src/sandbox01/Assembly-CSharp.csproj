@@ -8,7 +8,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <ProjectGuid>{795AA826-5D67-175C-7179-642D1E4959AF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -66,6 +67,7 @@
     <Compile Include="Assets\Scripts\BelongsTo.cs" />
     <Compile Include="Assets\Scripts\Challenge.cs" />
     <Compile Include="Assets\Scripts\ChallengeEditorWindow.cs" />
+    <Compile Include="Assets\Scripts\Sample6\CustomPageRoute.cs" />
     <Compile Include="Assets\Scripts\Deflector.cs" />
     <Compile Include="Assets\Scripts\DestroyAfterTime.cs" />
     <Compile Include="Assets\Scripts\HealthBehaviour.cs" />
@@ -79,6 +81,8 @@
     <Compile Include="Assets\Scripts\RotateWithVelocity.cs" />
     <Compile Include="Assets\Scripts\Sample4\Sample4LayoutRoot.cs" />
     <Compile Include="Assets\Scripts\Sample5\Sample5LayoutRoot.cs" />
+    <Compile Include="Assets\Scripts\Sample6\Router.cs" />
+    <Compile Include="Assets\Scripts\Sample6\Sample6LayoutRoot.cs" />
     <Compile Include="Assets\Scripts\TargetHandler.cs" />
   </ItemGroup>
   <ItemGroup>
