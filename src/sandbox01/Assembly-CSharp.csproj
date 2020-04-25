@@ -82,7 +82,9 @@
     <Compile Include="Assets\Scripts\Sample6\CustomPageRoute.cs" />
     <Compile Include="Assets\Scripts\Sample6\Router.cs" />
     <Compile Include="Assets\Scripts\Sample6\Sample6LayoutRoot.cs" />
+    <Compile Include="Assets\Scripts\Sample6\Screens\MainScreen.cs" />
     <Compile Include="Assets\Scripts\Sample6\Screens\RootScreen.cs" />
+    <Compile Include="Assets\Scripts\Shared\CColors.cs" />
     <Compile Include="Assets\Scripts\TargetHandler.cs" />
   </ItemGroup>
   <ItemGroup>

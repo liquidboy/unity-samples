@@ -1,4 +1,5 @@
 ﻿//using UnityEngine;
+using Shared;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.UIWidgets.painting;
@@ -13,7 +14,7 @@ namespace Samples.UIWidgets.Sample6.Screen
         public override Widget build(BuildContext context)
         {
             return new Container(
-                color: new Color(0xFFFFFFFF),
+                color: CColors.White,
                 child: new CustomSafeArea(
                     top: false,
                     child: new Column(

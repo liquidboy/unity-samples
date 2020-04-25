@@ -82,7 +82,7 @@ namespace Samples.UIWidgets.Sample6
                     //}
                     //else
                     //{
-                    //    routes.Add(key: MainNavigatorRoutes.Root, context => new MainScreen());
+                        routes.Add(key: MainNavigatorRoutes.Root, context => new MainScreen());
                     //}
                 }
                 else
