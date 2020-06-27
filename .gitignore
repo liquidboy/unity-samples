@@ -4,3 +4,5 @@
 /src/sandbox02/Library/PackageCache/*
 /src/sandbox02/Library/*
 /src/sandbox02/Temp/*
+/src/sandbox02/Logs/*
+/src/sandbox01/.vs/sandbox01/v16/.suo
