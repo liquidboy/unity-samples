@@ -1,3 +1,6 @@
 /src/sandbox01/Library/*
 /src/sandbox01/Temp/*
 /src/sandbox01/obj/*
+/src/sandbox02/Library/PackageCache/*
+/src/sandbox02/Library/*
+/src/sandbox02/Temp/*
